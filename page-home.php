@@ -151,7 +151,7 @@
         </div>
 
         <div class="btn">
-            <a href="">ラインにて個別相談に申し込む／お問い合わせ</a>
+            <a href="https://lin.ee/U15BVk2">ラインにて個別相談に申し込む／お問い合わせ</a>
         </div>
 
         <div class="study_step">
@@ -348,39 +348,10 @@
         </div>
 
         <div class="btn">
-            <a href="">ラインにて個別相談に申し込む／お問い合わせ</a>
+            <a href="https://lin.ee/U15BVk2">ラインにて個別相談に申し込む／お問い合わせ</a>
 
         </div>
-<!-- 
-        <div class="qa">
-            <div class="sab_title">
-                <h2 class="sab_title_text">Q&A</h2>
-                <span class="sab_title_line"></span>
-            </div>
-            <div class="qa_content">
-                <div class="qa_margin">
-                    <p class="qa_title">Q1,学習習慣がなくても大丈夫ですか？</p>
-                    <span class="qa_line"></span>
-                    <div class="qa_answer">
-                        <p>問題ありません！</p>
-                        <p>ProProでは、学習のスケジュールを立てさせていただきスケジュール通りにできているのかを講師より確認させていただき、遅れている際にはスケジュールの見直しと催促をさせていただきます。</p>
-                    </div>
 
-                </div>
-            </div>
-            <div class="qa_content">
-                <div class="qa_margin">
-                    <p class="qa_title">Q1,全く勉強していなくても加入は可能ですか？</p>
-                    <span class="qa_line"></span>
-                    <div class="qa_answer">
-                        <p>問題ありません！</p>
-                        <p>やる気さえあれば歓迎いたします！</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div> -->
 
         <div class="qa">
         <div class="sab_title">
