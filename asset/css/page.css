@@ -1,0 +1,46 @@
+.single_post {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .post_detail {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .post_thumbnail {
+    width: 100%;
+    height: 576px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* 背景色があると画像外の余白も見やすい */
+    overflow: hidden;
+  }
+  
+  .post_thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
+  
+  .post_title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .post_meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .post_content {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  

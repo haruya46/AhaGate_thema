@@ -14,6 +14,17 @@ a{
 
 }
 
+/* font */
+.Corporate-Logo-ver2-Bold{
+
+  font-family: "corporate-logo-ver2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -42,11 +53,53 @@ a{
     color: white;
   }
 
+  /* main */
+
 main{
     max-width: 1024px;
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+/* sab_title */
+.sab_title{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  color: #005740;
+  text-align: center;
+}
+
+.sab_title_text{
+  font-size: 48px;
+
+}
+.sab_title_line{
+  display: inline-block;
+  width: 124px;
+  height: 3px;
+  background-color: black;
+}
+
+/* btn */
+.btn{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.btn a{
+  list-style: none;
+  text-decoration: none;
+  border:0px solid black;
+  border-radius: 10px;
+  background-color: #005740;
+  color: white;
+  padding: 50px 130px;
+  font-size: 27px;
+
+}
+
+/* footer */
 footer{
     box-sizing: border-box;
     margin: 10px auto 0 auto;

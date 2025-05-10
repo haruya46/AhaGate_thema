@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
+
+
+    <!-- フォント -->
+    <script>
+  (function(d) {
+    var config = {
+      kitId: 'diq2pfe',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+
+<!-- フォントここまで -->
 </head>
 <body <?php body_class(); ?>>
 <header>
@@ -13,10 +29,10 @@
     <nav class="nav">
       <ul>
         <li><a href="<?php echo get_permalink(get_page_by_path('home')); ?>/#about">ProProとは？</a></li>
-        <li><a href="<?php echo get_permalink(get_page_by_path('review')); ?>">口コミ</a></li>
+        <li><a href="<?php echo get_permalink(get_page_by_path('review')); ?>">受講生の声</a></li>
         <li><a href="https://www.youtube.com/@ProPro-q8w">youtube</a></li>
         <li><a href="<?php echo get_permalink(get_page_by_path('blog')); ?>">ブログ</a></li>
-        <li><a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">お問い合わせ</a></li>
+        <li><a href="https://lin.ee/U15BVk2">お問い合わせ</a></li>
       </ul>
     </nav>
   </div>
