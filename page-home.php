@@ -63,7 +63,7 @@
     </div>
     <div>
         <div class="sab_title">
-            <h2 id="about" class="sab_title_text">ProProとは？</h2>
+            <h2 id="about" class="sab_title_text">AhaGateとは？</h2>
             <span class="sab_title_line"></span>
         </div>
 
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="about01_item_right">
-                <p>ProProで受けれるサービス</p>
+                <p>AhaGateで受けれるサービス</p>
                 <ul>
                     <li>月４回の75分間のzoom</li>
                     <li>LINEにて質問し放題</li>
@@ -156,7 +156,7 @@
 
         <div class="study_step">
             <div class="sab_title">
-                <h2 class="sab_title_text">ProProの学習ステップ</h2>
+                <h2 class="sab_title_text">AhaGateの学習ステップ</h2>
                 <span class="sab_title_line"></span>
 
             </div>

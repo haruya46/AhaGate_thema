@@ -41,7 +41,7 @@
     <!-- オーバーレイナビ -->
     <nav class="nav" id="nav">
       <ul>
-        <li><a href="<?php echo get_permalink(get_page_by_path('home')); ?>/#about">ProProとは？</a></li>
+        <li><a href="<?php echo get_permalink(get_page_by_path('home')); ?>/#about">AhaGateとは？</a></li>
         <li><a href="<?php echo get_permalink(get_page_by_path('review')); ?>">受講生の声</a></li>
         <li><a href="https://www.youtube.com/@ProPro-q8w">YouTube</a></li>
         <li><a href="<?php echo get_permalink(get_page_by_path('blog')); ?>">ブログ</a></li>
