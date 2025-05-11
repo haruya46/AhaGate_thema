@@ -58,7 +58,7 @@
             <p class="top_text_item2">×</p>
             <p class="top_text_item3">継続力</p>
         </div>
-        <p class="top_text_item4 Corporate-Logo-ver2-Bold">に特化したプログラミングスクール</p>
+        <p class="top_text_item4 Corporate-Logo-ver2-Bold">で覚醒に導くプログラミングスクール</p>
 
     </div>
     <div>
@@ -337,7 +337,7 @@
                 </div>
                 <span class="study_step_content_line"></span>
                 <div class="study_step_content_text">
-                    <p>お支払いはPayPayまたは銀行振込です。</p>
+                    <p>お支払いはPayPay、銀行振込、クレジットカードです。</p>
                     <p>
                         お支払いの確認が取れましたらzoomの日程を決め受講スタートとなります。
                     </p>
