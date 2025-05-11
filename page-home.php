@@ -79,7 +79,7 @@
                 <ul>
                     <li>月４回の75分間のzoom</li>
                     <li>LINEにて質問し放題</li>
-                    <li>スケジュール管理</li>
+                    <li>行動支援</li>
                 </ul>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="about02_item_right div">
+            <div class="about02_item_right">
                 <p>02</p>
                 <div></div>
             </div>
@@ -387,17 +387,6 @@
             endif;
         ?>
         </div>
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 

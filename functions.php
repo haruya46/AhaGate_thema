@@ -16,6 +16,7 @@ function theme_enqueue_styles() {
   // 固定ページごとのスタイル
   if (is_page('home')) {
     wp_enqueue_style('home-style', get_template_directory_uri() . '/asset/css/home.css', [], filemtime(get_template_directory() . '/asset/css/home.css'));
+    
   } elseif (is_page('review')) {
     wp_enqueue_style('review-style', get_template_directory_uri() . '/asset/css/review.css', [], filemtime(get_template_directory() . '/asset/css/review.css'));
   } elseif (is_page('blog')) {

@@ -56,3 +56,18 @@ padding: 5px 30px;
 font-size: 18px;
 
 }
+
+@media (max-width: 768px) {
+    .review{
+        display: block;
+        width: 100%;
+    }
+    .review_thumbnail{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .review_content_item{
+        margin: 0 auto;
+        width: 90%;
+    }
+}

@@ -69,6 +69,9 @@
     margin-top: 100px;
     width: 100%;
 }
+.responsive_img{
+    display: none;
+}
 .about02_item_left{
     width: 50%;
 }
@@ -326,3 +329,223 @@ font-size: 18px;
     height: 3px;
     background-color: white;
 }
+
+@media (max-width: 768px) {
+    .top_text {
+      font-size: 48px;
+      flex-direction: column;
+    }
+    .top_text_item4 {
+      font-size: 20px;
+    }
+    .about01, .about03 {
+        display: block; /* 横並びにするため */
+        margin-top: 10px;
+        width: 100%;
+    }
+    .about01_item_left p,.about03_item_left p{
+        display: none;
+    }
+    .about01_item_left,.about03_item_left{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .about01_item_right, .about03_item_right{
+   
+        width:90%; /* 内容に合わせる */
+        margin: 0 auto;     /* 親の中で中央寄せ */
+        text-align: center;   /* テキストは左揃え */
+        
+    }
+    .about01_item_right p{
+   
+        display: block;
+        border:0px solid black;
+        border-radius: 10px;
+        background-color: #005740;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .about01_item_right ul{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .about01_item_right li{
+        padding-bottom: 10px;
+        list-style: none;   
+    }
+    .about03_item_right_title{
+        display: block;
+        border:0px solid black;
+        border-radius: 10px;
+        background-color: #005740;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .about02{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .about02_item_left{
+        width: 90%;
+        order: 2;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .about02_item_left_title{
+        display: block;
+        border:0px solid black;
+        border-radius: 10px;
+        background-color: #005740;
+        color: white;
+        padding: 5px 40px;
+        font-size: 18px;
+    
+    }
+    .about02_item_left_sab_title{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .about02_item_left ul{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .about02_item_left li{
+        padding-bottom: 10px;
+        list-style: none;  
+        
+    }
+    
+    .about02_item_right{
+        width:90%;
+        margin:0 auto;
+        order: 1;
+
+
+
+    }
+    .about02_item_right p{
+        display: none;
+    
+    }
+
+
+
+    .about03_item_right_sab_title{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .about03_item_right ul{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .about03_item_right li{
+        padding-bottom: 10px;
+        list-style: none;
+        
+    }
+
+    .about04{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .about04_item_left{
+        width: 90%;
+        order: 2;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .about04_item_left_title{
+        display: block;
+        border:0px solid black;
+        border-radius: 10px;
+        background-color: #005740;
+        color: white;
+        padding: 5px 40px;
+        font-size: 18px;
+    
+    }
+    .about04_item_left_sab_title{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .about04_item_left ul{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .about04_item_left li{
+        padding-bottom: 10px;
+        list-style: none;  
+        
+    }
+    
+    .about04_item_right{
+        width:90%;
+        margin:0 auto;
+        order: 1;
+
+
+
+    }
+    .about04_item_right p{
+        display: none;
+    
+    }
+
+  
+   
+    .study_step{
+        margin-top: 50px;
+    }
+    .study_step_course {
+      font-size: 28px;
+    }
+  
+    .study_step_content_title_number {
+      width: 40px;
+      height: 40px;
+      font-size: 24px;
+    }
+  
+    .study_step_content_title_text {
+      font-size: 24px;
+    }
+
+    .review{
+        display: block;
+    }
+    .review_thumbnail{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .review_content_item{
+        margin: 0 auto;
+        width: 90%;
+    }
+  
+    .qa_content {
+      width: 95%;
+      margin: 20px auto;
+    }
+  
+    .qa_margin {
+      padding: 15px 20px;
+    }
+  }
+  

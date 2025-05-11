@@ -9,17 +9,20 @@
             <?php the_post_thumbnail('large'); ?>
           </div>
         <?php endif; ?>
-      <h1 class="post_title"><?php the_title(); ?></h1>
+        <div>
+            <h1 class="post_title"><?php the_title(); ?></h1>
+      
+            <div class="post_meta">
+              <span class="post_date"><?php echo get_the_date(); ?></span>
+              <span class="post_category"><?php the_category(', '); ?></span>
+            </div>
+      
+      
+            <div class="post_content">
+              <?php the_content(); ?>
+            </div>
 
-      <div class="post_meta">
-        <span class="post_date"><?php echo get_the_date(); ?></span>
-        <span class="post_category"><?php the_category(', '); ?></span>
-      </div>
-
-
-      <div class="post_content">
-        <?php the_content(); ?>
-      </div>
+        </div>
     </article>
 
   <?php endwhile; endif; ?>
