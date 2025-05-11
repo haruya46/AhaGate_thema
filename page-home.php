@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 300px;
 
     
     
@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 300px;
     
     
 }
@@ -34,7 +34,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 300px;
     
     
 }
@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 300px;
     
     
 }
@@ -167,7 +167,7 @@
                         <div class="study_step_content_title_number">
                             <p>1</p>
                         </div>
-                        <p class="study_step_content_title_text">初月〜2ヶ月</p>
+                        <p class="study_step_content_title_text">初月</p>
                     </div>
                     <span class="study_step_content_line"></span>
                     <div class="study_step_content_text">
@@ -182,7 +182,7 @@
                         <div class="study_step_content_title_number">
                             <p>2</p>
                         </div>
-                        <p class="study_step_content_title_text">3ヶ月</p>
+                        <p class="study_step_content_title_text">3ヶ月目</p>
                     </div>
                     <span class="study_step_content_line"></span>
                     <div class="study_step_content_text">
@@ -216,7 +216,7 @@
                         <div class="study_step_content_title_number">
                             <p>2</p>
                         </div>
-                        <p class="study_step_content_title_text">2ヶ月</p>
+                        <p class="study_step_content_title_text">2ヶ月目</p>
                     </div>
                     <span class="study_step_content_line"></span>
                     <div class="study_step_content_text">
@@ -228,13 +228,13 @@
                         <div class="study_step_content_title_number">
                             <p>3</p>
                         </div>
-                        <p class="study_step_content_title_text">3ヶ月</p>
+                        <p class="study_step_content_title_text">3ヶ月目〜6ヶ月目</p>
                     </div>
                     <span class="study_step_content_line"></span>
                     <div class="study_step_content_text">
-                        <p>作りたいwebアプリを決め要件定義や設計を作成し制作に取り掛かります。</p>
-                        <p>ビギナーコースから加入された方は7ヶ月で卒業を目指します。</p>
-                        <p>プロコースの方は4ヶ月を目標に卒業します。</p>
+                        <p>作りたいwebアプリ（ポートフォリオ）を決め要件定義や設計を作成し制作に取り掛かります。</p>
+                        <p>ビギナーコースから加入された方は9ヶ月で卒業を目指します。</p>
+                        <p>プロコースの方は6ヶ月間に卒業を目標にとします</p>
                     </div>
                 </div>
 

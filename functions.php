@@ -16,7 +16,7 @@ function theme_enqueue_styles() {
   // 固定ページごとのスタイル
   if (is_page('home')) {
     wp_enqueue_style('home-style', get_template_directory_uri() . '/asset/css/home.css', [], filemtime(get_template_directory() . '/asset/css/home.css'));
-    
+
   } elseif (is_page('review')) {
     wp_enqueue_style('review-style', get_template_directory_uri() . '/asset/css/review.css', [], filemtime(get_template_directory() . '/asset/css/review.css'));
   } elseif (is_page('blog')) {
@@ -32,6 +32,7 @@ function theme_enqueue_styles() {
   if (is_single() && 'post' === get_post_type()) {
     wp_enqueue_style('single-style', get_template_directory_uri() . '/asset/css/single.css', [], filemtime(get_template_directory() . '/asset/css/single.css'));
   }
+
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 

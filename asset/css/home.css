@@ -338,6 +338,10 @@ font-size: 18px;
     .top_text_item4 {
       font-size: 20px;
     }
+    .about01_item_left div,.about02_item_right div,
+    .about03_item_left div,.about04_item_right div{
+        height: 270px;
+    }
     .about01, .about03 {
         display: block; /* 横並びにするため */
         margin-top: 10px;
@@ -550,5 +554,6 @@ font-size: 18px;
     .qa_margin {
       padding: 15px 20px;
     }
+
   }
   

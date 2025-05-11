@@ -65,3 +65,19 @@ font-size: 18px;
     height: 3px;
     background-color:#005740;
 }
+
+
+@media (max-width: 768px) {
+    .review{
+        display: block;
+        width: 100%;
+    }
+    .review_thumbnail{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .review_content_item{
+        margin: 0 auto;
+        width: 90%;
+    }
+}

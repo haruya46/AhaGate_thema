@@ -46,12 +46,39 @@
     line-height: 1.8;
   }
   
-  /* --- ✅ スマホ（768px以下）のスタイル調整 --- */
   @media (max-width: 768px) {
-    .review{
-        display: block;
-        width: 100%;
+    .post_detail {
+      width: 95%;
+      padding: 0 10px;
     }
-
+  
+    .post_title {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+  
+    .post_meta {
+      font-size: 0.8rem;
+      text-align: right;
+    }
+  
+    .post_content {
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+  
+    .post_thumbnail {
+      height: 300px;
+      width: 100%;
+      margin-bottom: 15px;
+      object-fit: contain;
+      display: block;
+    }
+  
+    .post_thumbnail img {
+      max-width: 100%;
+      height: auto;
+    }
   }
+  
   
